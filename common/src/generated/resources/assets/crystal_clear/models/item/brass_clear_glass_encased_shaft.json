@@ -1,0 +1,7 @@
+{
+  "parent": "crystal_clear:block/glass_encased_shaft/block",
+  "textures": {
+    "casing": "crystal_clear:block/brass_clear_glass_casing",
+    "opening": "create:block/brass_gearbox"
+  }
+}

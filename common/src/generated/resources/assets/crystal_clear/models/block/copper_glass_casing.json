@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "crystal_clear:block/copper_glass_casing"
+  }
+}

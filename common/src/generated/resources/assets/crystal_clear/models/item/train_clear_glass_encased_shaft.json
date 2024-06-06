@@ -1,0 +1,7 @@
+{
+  "parent": "crystal_clear:block/glass_encased_shaft/block",
+  "textures": {
+    "casing": "crystal_clear:block/train_clear_glass_casing",
+    "opening": "crystal_clear:block/train_gearbox"
+  }
+}

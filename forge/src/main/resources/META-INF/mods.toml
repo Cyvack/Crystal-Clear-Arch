@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId = "crystal_clear"
+version = "${version}"
+displayName = "Create: Crystal Clear"
+logoFile = "logo.png"
+authors = "Cyvack"
+description = '''
+Compatible with Create 0.5.1.a
+The Ultimate Glass Experience.'''
+
+[[dependencies.crystal_clear]]
+   modId="forge"
+   mandatory=true
+   versionRange="[47,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.crystal_clear]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20.1,1.21)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.crystal_clear]]
+modId="create"
+mandatory=true
+versionRange="[0.5.1.a,)"
+ordering="AFTER"
+side="BOTH"

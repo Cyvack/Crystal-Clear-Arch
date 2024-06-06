@@ -1,0 +1,9 @@
+{
+  "parent": "crystal_clear:block/encased_cogwheel/item",
+  "textures": {
+    "backing": "crystal_clear:block/train_backing",
+    "casing": "crystal_clear:block/train_glass_casing",
+    "opening": "crystal_clear:block/train_gearbox",
+    "siding": "crystal_clear:block/encased_cogwheels/large_train_encased_cogwheel_side"
+  }
+}

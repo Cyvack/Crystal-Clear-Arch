@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crystal_clear:crafting/glass_casing/andesite_clear_glass_casing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_valve": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "create:casing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_valve",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crystal_clear:crafting/glass_casing/andesite_clear_glass_casing"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "crystal_clear:block/scaffold/block",
+  "textures": {
+    "casing": "crystal_clear:block/andesite_glass_casing",
+    "inside": "create:block/scaffold/andesite_scaffold_inside",
+    "particle": "create:block/scaffold/andesite_scaffold",
+    "side": "create:block/scaffold/andesite_scaffold",
+    "top": "crystal_clear:block/andesite_glass_casing"
+  }
+}

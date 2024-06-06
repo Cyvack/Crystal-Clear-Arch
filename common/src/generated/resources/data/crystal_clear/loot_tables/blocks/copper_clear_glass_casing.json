@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "crystal_clear:copper_clear_glass_casing"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "crystal_clear:blocks/copper_clear_glass_casing"
+}

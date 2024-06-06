@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.cyvack.crystal_clear.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EncasingRegistryAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

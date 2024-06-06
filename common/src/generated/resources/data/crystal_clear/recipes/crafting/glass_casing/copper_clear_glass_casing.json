@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crystal_clear:copper_glass_casing"
+    },
+    {
+      "item": "create:framed_glass"
+    }
+  ],
+  "result": {
+    "item": "crystal_clear:copper_clear_glass_casing"
+  }
+}

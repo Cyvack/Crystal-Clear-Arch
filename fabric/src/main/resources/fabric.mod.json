@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "crystal_clear",
+  "version": "0.0",
+
+  "name": "Crystal-Clear",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cyvack.crystal_clear.fabric.CrystalClearFabric"
+    ],
+    "fabric-datagen": [
+      "com.cyvack.crystal_clear.fabric.CrystalClearData"
+    ]
+  },
+  "mixins": [
+    "crystal_clear.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.20.1"
+  }
+}

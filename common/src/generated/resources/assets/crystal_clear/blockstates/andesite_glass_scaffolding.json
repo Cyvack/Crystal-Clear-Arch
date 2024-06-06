@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bottom=false": {
+      "model": "crystal_clear:block/andesite_glass_scaffolding"
+    },
+    "bottom=true": {
+      "model": "crystal_clear:block/andesite_glass_scaffolding_horizontal"
+    }
+  }
+}

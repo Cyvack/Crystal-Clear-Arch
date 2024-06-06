@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "crystal_clear:block/train_clear_glass_encased_shaft",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "crystal_clear:block/train_clear_glass_encased_shaft",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "crystal_clear:block/train_clear_glass_encased_shaft",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    }
+  }
+}
