@@ -53,7 +53,7 @@ public class CCCBlocks {
             glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "brass", false, AllSpriteShifts.BRASS_SCAFFOLD, AllSpriteShifts.BRASS_SCAFFOLD_INSIDE, () -> AllBlocks.BRASS_SCAFFOLD, MetalScaffoldingBlock::new);
 
     public static final BlockEntry<MetalScaffoldingBlock> COPPER_SCAFFOLD =
-            glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "copper", false, AllSpriteShifts.COPPER_SCAFFOLD_INSIDE, AllSpriteShifts.COPPER_SCAFFOLD_INSIDE, () -> AllBlocks.COPPER_SCAFFOLD, MetalScaffoldingBlock::new);
+            glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "copper", false, AllSpriteShifts.COPPER_SCAFFOLD, AllSpriteShifts.COPPER_SCAFFOLD_INSIDE, () -> AllBlocks.COPPER_SCAFFOLD, MetalScaffoldingBlock::new);
 
     public static final BlockEntry<MetalScaffoldingBlock> CLEAR_ANDESITE_SCAFFOLD =
             glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "andesite", true, AllSpriteShifts.ANDESITE_SCAFFOLD, AllSpriteShifts.ANDESITE_SCAFFOLD_INSIDE, () -> ANDESITE_SCAFFOLD, MetalScaffoldingBlock::new);
@@ -62,7 +62,7 @@ public class CCCBlocks {
             glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "brass", true, AllSpriteShifts.BRASS_SCAFFOLD, AllSpriteShifts.BRASS_SCAFFOLD_INSIDE, () -> BRASS_SCAFFOLD, MetalScaffoldingBlock::new);
 
     public static final BlockEntry<MetalScaffoldingBlock> CLEAR_COPPER_SCAFFOLD =
-            glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "copper", true, AllSpriteShifts.COPPER_SCAFFOLD_INSIDE, AllSpriteShifts.COPPER_SCAFFOLD_INSIDE, () -> COPPER_SCAFFOLD, MetalScaffoldingBlock::new);
+            glassScaffolding(REGISTRATE, CrystalClear.MOD_ID, "copper", true, AllSpriteShifts.COPPER_SCAFFOLD, AllSpriteShifts.COPPER_SCAFFOLD_INSIDE, () -> COPPER_SCAFFOLD, MetalScaffoldingBlock::new);
 
     public static void register() {
     }
